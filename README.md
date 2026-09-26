@@ -20,6 +20,14 @@ Samartify is a Next.js storefront for browsing machine embroidery designs. It in
 - Radix UI components
 - Lucide icons
 
+## Project Structure
+
+- `app/` — Pages and layouts for the storefront, checkout, and customer account
+- `components/` — Reusable interface components
+- `context/` — Browser-side cart and customer state
+- `lib/` — Product catalog, categories, and shared utilities
+- `types/` — TypeScript definitions for product data
+
 ## Getting Started
 
 ### Requirements
@@ -49,7 +57,7 @@ Samartify is a Next.js storefront for browsing machine embroidery designs. It in
 
 4. Open [http://localhost:3000](http://localhost:3000).
 
-To create a production build, run:
+To create and run a production build:
 
 ```bash
 npm run build
